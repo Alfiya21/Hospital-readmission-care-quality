@@ -1,0 +1,23 @@
+{
+  "gb_auc": 0.6650577426741848,
+  "gb_pr_auc": 0.21426893521774376,
+  "lr_auc": 0.6554703436830284,
+  "lr_pr_auc": 0.20460447001820287,
+  "base_rate": 0.1138916851218039,
+  "tier_cutoffs": [
+    0.09910509265749787,
+    0.16609404301011071
+  ],
+  "top_drivers": {
+    "number_inpatient": 0.0758,
+    "discharge_group_Home": 0.0258,
+    "discharge_group_Post-acute care": 0.0066,
+    "discharge_group_Other facility": 0.0048,
+    "specialty_Cardiology": 0.0034,
+    "number_emergency": 0.0031,
+    "primary_dx_group_Circulatory": 0.003,
+    "number_diagnoses": 0.0024,
+    "insulin_Down": 0.002,
+    "los_days": 0.0018
+  }
+}

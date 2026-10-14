@@ -1,0 +1,16 @@
+check,count,note
+rows_total,101766,raw encounters
+duplicate_encounter_id,0,should be 0
+patients_distinct,71518,repeat patients present -> split by patient when modelling
+weight_missing,98569,column unusable if >90% missing
+payer_code_missing,40256,"kept, flagged Unknown"
+medical_specialty_missing,49949,"kept, flagged Unknown"
+race_missing,2273,"kept, flagged Unknown"
+diag_1_missing,21,"kept, grouped Other"
+gender_unknown_invalid,3,dropped from clean
+invalid_los,0,outside 1-14 days
+age_bucket_invalid,0,should be 0
+unmapped_admission_type,10396,Not Available/NULL/Not Mapped -> Unknown
+unmapped_admission_source,7067,Not Available/NULL/Not Mapped -> Unknown
+expired_or_hospice_discharge,2423,cannot be readmitted -> excluded from KPI denominator
+readmitted_invalid_label,0,should be 0

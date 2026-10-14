@@ -1,0 +1,7 @@
+admission_type,encounters,readmit_30d_pct,avg_los_days
+Emergency,52369,11.83,4.36
+Elective,18667,10.49,4.3
+Urgent,18132,11.35,4.6
+Unknown,10144,10.87,4.22
+Trauma Center,18,0.0,5.44
+Newborn,10,10.0,3.2
